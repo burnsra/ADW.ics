@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="icon_pack" translatable="false">
+        <item>ic_allapps</item>
+        <item>ic_launcher_browser</item>
+        <item>ic_launcher_contacts</item>
+        <item>ic_launcher_phone</item>
+    </string-array>
+</resources>
