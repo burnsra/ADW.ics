@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-<!-- Theme properties -->
-<string name="theme_title">ADW Ice Cream Sandwich</string>
-<!-- To devs, read here on howto format/style your descriptions -->
-<!-- http://developer.android.com/intl/de/guide/topics/resources/string-resource.html#FormattingAndStyling -->
-<string name="theme_description">This theme is based upon the 4.0 Android System, codename Ice Cream Sandwich.  HDPI only at this time.</string>
 <!-- Theme specific appearance settings -->
 <color name="bubble_color">#B2191919</color>
 <color name="bubble_text_color">#FFFFFFFF</color>
@@ -23,10 +18,8 @@
 <bool name="config_fadeDrawerLabels">false</bool>
 <bool name="config_desktop_indicator">false</bool>
 <!-- 1=top dots, 2=top slider, 3=bottom slider -->
-<string name="config_desktop_indicator_type">1</string>
 <!-- config_ab_scalefactor is a float value between 0.1 and 0.8. Set here the default .X (-1, 6 will become 7) -->
 <integer name="config_ab_scale_factor">8</integer>
 <!-- Force the theme to use an specific dock style -->
 <!--  0=None, 1=3buttons, 2=5buttons, 3=1button -->
-<string name="main_dock_style">1</string>
 </resources>

@@ -1,4 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">ADW.ics</string>
+    <string name="icons_title">ICS Icons</string>
+    <string name="docks_title">ICS Docks</string>
+    <string name="theme_title">ADW.ics</string>
+    <string name="set_theme">apply theme</string>
+    <string name="get_pro">get more icons</string>
+    <string name="find_apps">find more themes</string>
+    <string name="twitter">follow on twitter</string>
+    <string name="website">kovdev website</string>
+    <string name="wallpapers">view wallpapers</string>
+    <string name="dialogok">OK</string>
+    <string name="authorName">Robert Burns</string>
+    <string name="developerName">Robert Burns</string>
+    <string name="authorLink">http://www.robertburns.me</string>
+    <string name="theme_description">This theme aims to match the look of the launcher included in the Android 4.0 ICS release.&lt;br/>&lt;br/> If you need help with this theme, please email me or visit my webpage - &lt;a href=http://www.robertburns.me>click here&lt;/a>. I am also on &lt;a href=http://gplus.to/burnsra>Google+&lt;/a> so circle me!</string>
+    <string name="config_desktop_indicator_type">3</string>
+    <string name="main_dock_style">2</string>
 </resources>

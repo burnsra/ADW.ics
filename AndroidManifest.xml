@@ -1,35 +1,60 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-      package="me.robertburns.android.adwtheme.ics"
-      android:versionCode="1"
-      android:versionName="1.0.0"
-      android:installLocation="internalOnly">
-    <uses-permission android:name="android.permission.SET_WALLPAPER"></uses-permission>
-    <application android:label="@string/theme_title" android:icon="@drawable/theme_icon">
-        <activity android:name=".main"
-                  android:label="@string/theme_title">
-            <intent-filter>
+    android:installLocation="internalOnly"
+    package="me.robertburns.android.adwtheme.ics"
+    android:versionCode="1"
+    android:versionName="1.0.0" >
+
+    <uses-permission android:name="android.permission.SET_WALLPAPER" >
+    </uses-permission>
+
+    <application
+        android:icon="@drawable/theme_icon"
+        android:label="@string/theme_title" >
+        <activity
+            android:label="@string/theme_title"
+            android:name=".main" >
+            <intent-filter >
                 <action android:name="android.intent.action.MAIN" />
                 <action android:name="org.adw.launcher.THEMES" />
-                <category android:name="android.intent.category.DEFAULT" />                
-            </intent-filter>
-            <intent-filter>
-                <action android:name="org.adw.launcher.icons.ACTION_PICK_ICON" />
+
                 <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>              
+            </intent-filter>
+            <intent-filter >
+                <action android:name="org.adw.launcher.icons.ACTION_PICK_ICON" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
         </activity>
         <activity
-            android:name=".wallpaper"
-            android:label="@string/theme_title"
+            android:finishOnCloseSystemDialogs="true"
             android:icon="@drawable/theme_icon"
-            android:screenOrientation="nosensor"
-            android:finishOnCloseSystemDialogs="true">
-            <intent-filter>
+            android:label="@string/theme_title"
+            android:name=".wallpaper"
+            android:screenOrientation="nosensor" >
+            <intent-filter >
                 <action android:name="android.intent.action.SET_WALLPAPER" />
+
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-    </application>
-	<uses-sdk android:minSdkVersion="4"/>
+        <activity
+            android:icon="@drawable/theme_icon"
+            android:label="@string/theme_title"
+            android:name=".docks" >
+            <intent-filter >
+                <action android:name="android.intent.action.PICK" />
 
-</manifest> 
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="image/*" />
+            </intent-filter>
+        </activity>
+
+        <provider
+            android:authorities="me.robertburns.android.adwtheme.ics.docksProvider"
+            android:name=".docksProvider" />
+    </application>
+    <uses-sdk android:minSdkVersion="4" />
+
+</manifest>

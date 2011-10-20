@@ -1,26 +1,26 @@
 package me.robertburns.android.adwtheme.ics;
 
+import java.io.IOException;
+import java.io.InputStream;
+import java.util.ArrayList;
+
 import android.app.Activity;
 import android.content.res.Resources;
-import android.graphics.BitmapFactory;
 import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.graphics.drawable.Drawable;
-import android.os.Bundle;
 import android.os.AsyncTask;
+import android.os.Bundle;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
+import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 import android.view.Window;
-import android.view.View.OnClickListener;
 import android.widget.AdapterView;
 import android.widget.BaseAdapter;
 import android.widget.Gallery;
 import android.widget.ImageView;
-
-import java.io.IOException;
-import java.io.InputStream;
-import java.util.ArrayList;
 
 
 public class wallpaper extends Activity implements AdapterView.OnItemSelectedListener,
@@ -99,7 +99,7 @@ public class wallpaper extends Activity implements AdapterView.OnItemSelectedLis
         }
     }
 
-    public void onItemSelected(AdapterView parent, View v, int position, long id) {
+    public void onItemSelected(AdapterView<?> parent, View v, int position, long id) {
         if (mLoader != null && mLoader.getStatus() != WallpaperLoader.Status.FINISHED) {
             mLoader.cancel();
         }
@@ -127,7 +127,7 @@ public class wallpaper extends Activity implements AdapterView.OnItemSelectedLis
         }
     }
 
-    public void onNothingSelected(AdapterView parent) {
+    public void onNothingSelected(AdapterView<?> parent) {
     }
 
     private class ImageAdapter extends BaseAdapter {

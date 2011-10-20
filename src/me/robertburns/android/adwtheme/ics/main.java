@@ -8,7 +8,6 @@ package me.robertburns.android.adwtheme.ics;
 
 import java.util.ArrayList;
 
-import me.robertburns.android.adwtheme.ics.R;
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
@@ -16,15 +15,14 @@ import android.content.res.Resources;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.BitmapFactory.Options;
-import android.graphics.drawable.BitmapDrawable;
 import android.os.Bundle;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
+import android.widget.AdapterView.OnItemClickListener;
 import android.widget.BaseAdapter;
 import android.widget.GridView;
 import android.widget.ImageView;
-import android.widget.AdapterView.OnItemClickListener;
 
 public class main extends Activity implements OnItemClickListener {
     private static final String ACTION_ADW_PICK_ICON = "org.adw.launcher.icons.ACTION_PICK_ICON";
