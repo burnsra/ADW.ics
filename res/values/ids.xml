@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="icon_grid">false</item>
+    <item type="id" name="buttons">false</item>
+    <item type="id" name="TextView01">false</item>
+    <item type="id" name="get_pro">false</item>
+    <item type="id" name="set_theme">false</item>
+    <item type="id" name="wallpapers">false</item>
+    <item type="id" name="find_apps">false</item>
+    <item type="id" name="twitter">false</item>
+    <item type="id" name="website">false</item>
+    <item type="id" name="header">false</item>
+    <item type="id" name="wallpaper">false</item>
+    <item type="id" name="gallery">false</item>
+    <item type="id" name="set">false</item>
+</resources>

@@ -4,12 +4,6 @@
     <string name="icons_title">ICS Icons</string>
     <string name="docks_title">ICS Docks</string>
     <string name="theme_title">ADW.ics</string>
-    <string name="set_theme">apply theme</string>
-    <string name="get_pro">get more icons</string>
-    <string name="find_apps">find more themes</string>
-    <string name="twitter">follow on twitter</string>
-    <string name="website">kovdev website</string>
-    <string name="wallpapers">view wallpapers</string>
     <string name="dialogok">OK</string>
     <string name="authorName">Robert Burns</string>
     <string name="developerName">Robert Burns</string>

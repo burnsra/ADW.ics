@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="bubble_radius">9</integer>
+    <integer name="config_highlights_color">-1560281089</integer>
+    <integer name="config_highlights_color_focus">-1560281089</integer>
+    <integer name="config_drawer_color">-1107296256</integer>
+    <integer name="config_ab_scale_factor">8</integer>
+</resources>

@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string-array name="dock_pack">
+		<item></item>
+    </string-array>
     <string-array name="icon_pack">
         <item>ic_allapps</item>
+        <item>ic_allapps_pressed</item>
         <item></item>
         <item>ic_launcher_alarmclock</item>
         <item>ic_launcher_clock</item>
@@ -10,6 +14,7 @@
         <item>ic_launcher_calendar</item>
         <item>ic_launcher_camera</item>
         <item>ic_launcher_contacts</item>
+        <item>ic_launcher_download</item>
         <item></item>
         <item>ic_launcher_marketplace</item>
         <item>ic_launcher_marketplace_apps</item>
